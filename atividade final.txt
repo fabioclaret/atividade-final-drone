@@ -1,0 +1,25 @@
+Olá pessoal. 
+Meu nome é Fabio Claret, e eu sou professor de Desenvolvimento em uma ETEC aqui em São Paulo.
+Existem diversas oportunidades na minha area para utlizar um drone, praticamente em todos os componentes lecionados tem como encaixar um projeto usando drone.
+Mas, para a atividade final do curso, pensei em criar um projeto ligado à segurança.
+Nossa ETEC tem muito problema com invasão de pessoas mal intencionadas, e apesar de termos seguranças, eles não conseguem monitorar toda a area da escola.
+Pensei entao em criar um programa onde o drone pudesse sobrevoar o perimetro da escola de meia em meia hora, com a camera ligada, auxiliando assim os seguranças.
+O drone tem de fazer a varredura de meia em meia hora durante o periodo de 6horas.
+Dessa forma, o programa foi pensado com a seguinte lógica:
+ 0 - ligar os motores
+ 1 - levantar voo da base e subir 20 metros
+ 2 - ligar a camera
+ 3 - percorrer 200 metros
+ 4 - virar à direita
+ 5 - percorrer 50 metros
+ 6 - virar à direita
+ 7 - percorrer 200 metros
+ 8 - virar à direita
+ 9 - percorrer 50 metros
+10 - virar à direita
+11 - percorrer 2 metros
+12 - desligar a camera
+13 - aterrisar
+14 - aguardar 30 minutos
+15 - repetir esse processo 12 vezes
+16 - desligar
